@@ -1,0 +1,51 @@
+.bartje {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 300px) {
+    .bartje {background-color: red;}
+    body {
+      background-color: red;
+    }
+    /*div.small{
+      display:none;
+    }*/
+    div.medium{
+      display:none;
+    }
+    div.large{
+      display:none;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .bartje {background-color: green;}
+    body{
+      background-color: green;
+    }
+    div.small{
+      display:none;
+    }
+    /*div.medium{
+      display:none;
+    }*/
+    div.large{
+      display:none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .bartje {background-color: blue;}
+    body{
+      background-color: blue;
+    }
+    div.small{
+      display:none;
+    }
+    div.medium{
+      display:none;
+    }
+    div.large{
+      display:block;
+    }
+}
