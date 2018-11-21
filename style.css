@@ -9,7 +9,7 @@
       flex-direction: column;
       text-align: justify;
     }
-    #small{
+    #smalll{
       display:block;
       width:auto;
     }
@@ -33,7 +33,7 @@
 
 
     }
-    #small{
+    #smalll{
       display:block;
       width:60%;
     }
@@ -54,7 +54,7 @@
       justify-content: space-around;
       background-color: blue;
     }
-    #small{
+    #smalll{
       display:block;
       width:30%
     }
