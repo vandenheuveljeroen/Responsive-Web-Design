@@ -1,51 +1,68 @@
-.bartje {
-    padding: 20px;
+* {
+  margin:0;
 }
 
-@media only screen and (max-width: 300px) {
-    .bartje {background-color: red;}
     body {
       background-color: red;
+      font-size: 12px;
+      display:flex;
+      flex-direction: column;
+      text-align: justify;
     }
-    /*div.small{
-      display:none;
-    }*/
-    div.medium{
-      display:none;
+    #small{
+      display:block;
+      width:auto;
     }
-    div.large{
-      display:none;
+    #medium{
+      display:block;
+      width:auto;
     }
-}
+    #large{
+      display:block;
+      width:auto;
+    }
 
-@media only screen and (min-width: 300px) {
-    .bartje {background-color: green;}
+@media screen and (min-width: 300px) {
+
     body{
       background-color: green;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+
     }
-    div.small{
-      display:none;
+    #small{
+      display:block;
+      width:60%;
     }
-    /*div.medium{
-      display:none;
-    }*/
-    div.large{
-      display:none;
+    #medium{
+      display:block;
+      width:30%
     }
-}
+    #large{
+      display:block;
+      width:90%
+    }
 
 @media only screen and (min-width: 768px) {
-    .bartje {background-color: blue;}
+
     body{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-around;
       background-color: blue;
     }
-    div.small{
-      display:none;
-    }
-    div.medium{
-      display:none;
-    }
-    div.large{
+    #small{
       display:block;
+      width:30%
     }
-}
+    #medium{
+      display:block;
+      width:30%
+    }
+    #large{
+      display:block;
+      width:30%
+    }
